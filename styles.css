@@ -15,6 +15,7 @@ html{
   background-color: #11cdd4;
   text-align: center;
   padding-top: 50px;
+  width:100%;
   position: relative;
 
   /* height: 200px;
@@ -29,6 +30,7 @@ html{
   background-color: #11cdd4;
   text-align: center;
   padding-top: 100px;
+  width:100%;
   position: relative;
 }
 /* never forget add a . before the class you have declared to the div */
@@ -56,6 +58,7 @@ html{
   position: absolute;
   left: 100px;
   top: 250px;
+  
   /* here we use postion property to move the blocks here and there
     so we use the relative property there 
     and as studied we also use the inline and certain various methods  */
@@ -224,7 +227,7 @@ body {
   }
   
   .intro {
-    width: auto;
+    width: 70%;
     margin: auto;
     line-height: 2;
     text-align: center;
@@ -234,6 +237,15 @@ body {
     margin: auto;
     line-height: 2;
     text-align: center;
+  }
+  .cloud-left {
+    /* position: relative; */
+    position: absolute;
+    left: 55px;
+    top: 250px;
+  }
+  .cloud-right{
+    right:40px;
   }
 
   
@@ -335,4 +347,33 @@ body {
 .nav a:hover {
   color: lightgray;
 }
+
+.hobbiesphotos{
+  display:flex;
+  justify-content:center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  
+}
+.hobbiesphotos img{
+  border-radius: 20px;
+  padding:10px;
+  height:150px;
+  width:150px;
+}
+/* .column{
+  flex-wrap: wrap;
+} */
+
+.mail{
+  height:50px;
+  width:50px;
+}
+.contact-me{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
