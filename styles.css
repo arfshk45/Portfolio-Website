@@ -11,12 +11,15 @@ html{
   font-weight: normal;
   padding-top: 40px;
 }
+
 .bunty {
   background-color: #11cdd4;
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   width:100%;
   position: relative;
+  overflow:hidden;
+  
 
   /* height: 200px;
     width:200px; */
@@ -54,10 +57,13 @@ html{
 }
 
 .cloud-left {
-  /* position: relative; */
+
   position: absolute;
-  left: 100px;
-  top: 250px;
+  /* left: 100px; */
+  /* top: 250px; */
+  top:50%;
+  left:0;
+  transform: translate(-50%,-50%);
   
   /* here we use postion property to move the blocks here and there
     so we use the relative property there 
@@ -70,8 +76,11 @@ html{
 }
 .cloud-right {
   position: absolute;
-  top: 250px;
-  right: 100px;
+  /* top: 250px;
+  right: 100px; */
+  top:50%;
+  left:100%;
+  transform: translate(-50%,-50%);
 }
 .bunty h2 {
   padding-bottom: 100px;
@@ -86,12 +95,6 @@ h1 {
   margin: 50px auto 0 auto;
   color: #333535;
   /* line-height: 2; */
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  color: #2a8080;
-  font-weight: normal;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -142,11 +145,11 @@ hr {
 }
 .btn {
   background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #1199E);
-  background-image: -moz-linear-gradient(top, #11cdd4, #1199E);
-  background-image: -ms-linear-gradient(top, #11cdd4, #1199E);
-  background-image: -o-linear-gradient(top, #11cdd4, #1199E);
-  background-image: linear-gradient(to bottom, #11cdd4, #1199E);
+  background-image: -webkit-linear-gradient(top, #11cdd4, #2d2e41);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11199E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11199E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11199E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11199E);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -238,15 +241,7 @@ body {
     line-height: 2;
     text-align: center;
   }
-  .cloud-left {
-    /* position: relative; */
-    position: absolute;
-    left: 55px;
-    top: 250px;
-  }
-  .cloud-right{
-    right:40px;
-  }
+  
 
   
 }
@@ -377,6 +372,59 @@ body {
 .main-heading-top{
   font-family: 'Playfair Display', serif;
   font-size: 60px;
+  margin-top: 0;
+}
+/* ------------------------ title change using h2 -------------------------------------------- */.flow{
+  display: flex;
+  justify-content: center;
+}
+.bunty span{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #2a8080;
+  font-weight: normal;
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+  
+  
+  text-align: center;
+  
+  
+  
+}
+.bunty span a {
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+ /* animation: move 1.5s steps(8) infinite alternate, cursor 0.8s steps(1) infinite; */
+ 
+ display: inline-block;
+ overflow: hidden;
+ color: white;
+ border-right: 3px solid white;
+ white-space: nowrap;
+ width: 0; /* Initially hidden */
+}
+/* .bunty span a:before{
+  content: "";
+} */
+
+/* Blinking cursor effect */
+@keyframes cursor {
+ 50% {
+   border-right-color: transparent;
+ }
+}
+
+/* Typewriter effect: gradually increasing width */
+@keyframes move {
+ 0% {
+   width: 0;
+ }
+ 100% {
+   width: 100%; /* Shows the full width of the text */
+ }
 }
 
 
