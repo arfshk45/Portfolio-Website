@@ -1,471 +1,441 @@
 .main-container {
-  margin: 0px 200px;
+	margin: 0px 200px;
 }
-html{
-  scroll-behavior: smooth;
+html {
+	scroll-behavior: smooth;
 }
 .top-heading {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-  color: #2a8080;
-  font-weight: normal;
-  padding-top: 40px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.8rem;
+	color: grey;
+	font-weight: normal;
+	padding-top: 40px;
 }
 
 .bunty {
-  background-color: #11cdd4;
-  text-align: center;
-  /* padding-top: 50px; */
-  width:100%;
-  position: relative;
-  overflow:hidden;
-  
+	/* background-color: #11cdd4; */
+	background-color: #11199e;
+	text-align: center;
+	/* padding-top: 50px; */
+	width: 100%;
+	position: relative;
+	overflow: hidden;
 
-  /* height: 200px;
+	/* height: 200px;
     width:200px; */
 
-  /* border-width: 5px 0px 5px 0px; */
+	/* border-width: 5px 0px 5px 0px; */
 
-  /* margin: 10px; */
+	/* margin: 10px; */
 }
 
 .topper-container {
-  background-color: #11cdd4;
-  text-align: center;
-  padding-top: 100px;
-  width:100%;
-  position: relative;
+	background-color: #11199e;
+	text-align: center;
+	padding-top: 100px;
+	width: 100%;
+	position: relative;
+  padding: 20px 0 20px;
+	font-family: "Montserrat", sans-serif;
+	color: #333535;
+	font-weight: bolder;
 }
 /* never forget add a . before the class you have declared to the div */
 .a {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
-  position: relative;
-  /* in the next module we discussed about the problem 
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	/* in the next module we discussed about the problem 
     that the elements occupy the whole space to over come this
     we are using the display properties which is inline block properties
     to over this we use the inline-block property as 
     display:inline-block; */
-  /* here we have four display properties
+	/* here we have four display properties
     inline,block,inline-block,none  */
 }
 .b {
-  background-color: orange;
-  height: 200px;
-  width: 200px;
+	background-color: orange;
+	height: 200px;
+	width: 200px;
 }
 
 .cloud-left {
+	position: absolute;
+	/* left: 100px; */
+	/* top: 250px; */
+	top: 50%;
+	left: 0;
+	transform: translate(-50%, -50%);
 
-  position: absolute;
-  /* left: 100px; */
-  /* top: 250px; */
-  top:50%;
-  left:0;
-  transform: translate(-50%,-50%);
-  
-  /* here we use postion property to move the blocks here and there
+	/* here we use postion property to move the blocks here and there
     so we use the relative property there 
     and as studied we also use the inline and certain various methods  */
 
-  /* we are also having the absolute postioning property so this is 
+	/* we are also having the absolute postioning property so this is 
     different from that relative one */
-  /* and we also have the position which is fixed and is written
+	/* and we also have the position which is fixed and is written
     position: fixed; */
 }
 .cloud-right {
-  position: absolute;
-  /* top: 250px;
+	position: absolute;
+	/* top: 250px;
   right: 100px; */
-  top:50%;
-  left:100%;
-  transform: translate(-50%,-50%);
+	top: 50%;
+	left: 100%;
+	transform: translate(-50%, -50%);
 }
 .bunty h2 {
-  padding-bottom: 100px;
+	padding-bottom: 100px;
 }
 .sills {
-  margin: 0px 5000px;
+	margin: 0px 5000px;
 }
 h1 {
-  margin-top: 0;
-  font-family: "Sacramento", sans-serif;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  color: #333535;
-  /* line-height: 2; */
+	margin-top: 0;
+	font-family: "Sacramento", sans-serif;
+	font-size: 5.625rem;
+	margin: 50px auto 0 auto;
+	color: #333535;
+	/* line-height: 2; */
 }
 h3 {
-  font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 body {
-  margin: 0;
-  text-align: center;
-  font-family: "Merriweather", serif;
-  color: #245d53;
+	margin: 0;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	color: #245d53;
 }
 .skills-row {
-  text-align: left;
-  line-height: 1;
-  margin: 0px 120px;
+	text-align: left;
+	line-height: 1;
+	margin: 0px 120px;
 }
 
 /* here we are using the float and clear properties to wrap the text within the image just 
 like as we did in the skills photo section  */
 .skillsphoto {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+	width: 25%;
+	float: left;
+	margin-right: 30px;
 }
 .computer {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+	width: 25%;
+	float: right;
+	margin-left: 30px;
 }
 .gif {
-  /* margin-top: 100px; */
-  margin: 100px 0px;
+	/* margin-top: 100px; */
+	margin: 100px 0px;
 }
 hr {
-  border: dotted 5px grey;
-  width: 3%;
-  border-bottom: none;
+	border: dotted 5px grey;
+	width: 3%;
+	border-bottom: none;
 
-  margin: 100px auto;
+	margin: 100px auto;
 }
 .intro {
-  width: 50%;
-  margin: auto;
-  line-height: 2;
+	width: 50%;
+	margin: auto;
+	line-height: 2;
 }
 .intro-footer {
-  width: 30%;
-  margin: 40px auto 60px;
+	width: 30%;
+	margin: 40px auto 60px;
 }
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #2d2e41);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11199E);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11199E);
-  background-image: -o-linear-gradient(top, #11cdd4, #11199E);
-  background-image: linear-gradient(to bottom, #11cdd4, #11199E);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+	background: #11cdd4;
+	background-image: -webkit-linear-gradient(top, #11cdd4, #2d2e41);
+	background-image: -moz-linear-gradient(top, #11cdd4, #11199e);
+	background-image: -ms-linear-gradient(top, #11cdd4, #11199e);
+	background-image: -o-linear-gradient(top, #11cdd4, #11199e);
+	background-image: linear-gradient(to bottom, #11cdd4, #11199e);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: "Montserrat", sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+	background: #30e3cb;
+	background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+	background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+	text-decoration: none;
 }
 .bottom-container {
-  margin-top: 100px;
-  background-color: #66bfbf;
-  padding: 50px 0 20px;
+	margin-top: 100px;
+	background-color: #11199e;
+	padding: 50px 0 20px;
+  
 }
 a {
-  font-family: "Montserrat", sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-  color: black;
+	font-family: "Montserrat", sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+	color: grey;
 }
 a:hover {
-  color: white;
+	color: white;
 }
 .copyright {
-  color: white;
-  padding: 20px 0;
-}
-.topper-container {
-  background-color: #11cdd4;
-
-  padding: 20px 0 20px;
-  font-family: "Montserrat", sans-serif;
-  color: #333535;
-  font-weight: bolder;
-  /* position:absolute;
-  right:0;
-  left: 300px;
-  overflow: hidden; */
+	color: white;
+	padding: 20px 0;
 }
 .topper-container p {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 .header-link {
-  margin: 10px 80px;
+	margin: 10px 80px;
 }
 body {
-  width: 100%;
+	width: 100%;
 }
 .header-link {
-  font-size: 25px;
-  color: white;
+	font-size: 25px;
+	color: white;
 }
 .mountain-img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 /* this is the newly added one  */
 .photo-container {
-  display: flex;
+	display: flex;
 
-  align-items: center;
-  margin: 20px;
-  padding: 0px;
-  justify-content: space-evenly;
+	align-items: center;
+	margin: 20px;
+	padding: 0px;
+	justify-content: space-evenly;
 }
-#imp{
-  flex-direction: row-reverse;
+#imp {
+	flex-direction: row-reverse;
 }
 .photo-container-1 {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items:center;
-  margin: 0;
-  padding: 0;
-  justify-content: space-evenly;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	justify-content: space-evenly;
 }
 .classic-container {
-  margin: 0px 250px;
+	margin: 0px 250px;
 }
 .photo-1 {
-  flex: 1;
-  padding: 10px;
+	flex: 1;
+	padding: 10px;
 }
 .photo-1 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 .intro-1 {
-  width: 80%;
-  margin: auto;
-  line-height: 2;
+	width: 80%;
+	margin: auto;
+	line-height: 2;
 }
 .info-1 {
-  flex: 2;
-  padding: 1px;
-  text-align: left;
+	flex: 2;
+	padding: 1px;
+	text-align: left;
 }
 .info-1 h2 {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 .photo {
-  flex: 1;
-  padding: 10px;
+	flex: 1;
+	padding: 10px;
 }
 
 .photo img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 .info {
-  flex: 2;
-  padding: 1px;
-  text-align: left;
+	flex: 2;
+	padding: 1px;
+	text-align: left;
 }
 
 .info h2 {
-  margin-top: 0;
+	margin-top: 0;
 }
 /* designing the header of the page using the anchor tags  */
 .header {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #11cdd4;
-  color: white;
-  opacity: 70%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 1px 0;
-  z-index: 1000;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+  background-color: #11199e;
+	color: white;
+	opacity: 70%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	padding: 1px 0;
+	z-index: 1000;
 }
 .nav {
-  display: flex;
-  gap: 20px;
+	display: flex;
+	gap: 20px;
 }
 
 .nav a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-  font-size: 1rem;
+	color: white;
+	text-decoration: none;
+	transition: color 0.3s;
+	font-size: 1rem;
 }
 
 .nav a:hover {
-  color: lightgray;
+	color: lightgray;
 }
 
-.hobbiesphotos{
-  display:flex;
-  justify-content:center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  
+.hobbiesphotos {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
 }
-.hobbiesphotos img{
-  border-radius: 20px;
-  padding:10px;
-  height:150px;
-  width:150px;
+.hobbiesphotos img {
+	border-radius: 20px;
+	padding: 10px;
+	height: 150px;
+	width: 150px;
 }
 /* .column{
   flex-wrap: wrap;
   } */
-  
-  .mail{
-    height:50px;
-    width:50px;
-  }
-  .contact-me{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .main-heading-top{
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    margin-top: 0;
-  }
-  /* ------------------------ title change using h2 -------------------------------------------- */.flow{
-    display: flex;
-    justify-content: center;
-  }
-  .bunty span{
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    color: #2a8080;
-    font-weight: normal;
-    position:absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    
-    
-    
-  text-align: center;
-  
-  
-  
+
+.mail {
+	height: 50px;
+	width: 50px;
+}
+.contact-me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main-heading-top {
+	font-family: "Playfair Display", serif;
+  color:white;
+	font-size: 60px;
+	margin-top: 0;
+}
+/* ------------------------ title change using h2 -------------------------------------------- */
+.flow {
+	display: flex;
+	justify-content: center;
+}
+.bunty span {
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	color: #2a8080;
+	font-weight: normal;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
 }
 .bunty span a {
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  /* animation: move 1.5s steps(8) infinite alternate, cursor 0.8s steps(1) infinite; */
-  
-  display: inline-block;
-  overflow: hidden;
-  color: white;
-  border-right: 3px solid white;
-  white-space: nowrap;
-  width: 0; /* Initially hidden */
+	/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+	/* animation: move 1.5s steps(8) infinite alternate, cursor 0.8s steps(1) infinite; */
+
+	display: inline-block;
+	overflow: hidden;
+	color: white;
+	border-right: 3px solid white;
+	white-space: nowrap;
+	width: 0; /* Initially hidden */
 }
 /* .bunty span a:before{
   content: "";
   } */
-  
-  /* Blinking cursor effect */
-  @keyframes cursor {
-    50% {
-   border-right-color: transparent;
-  }
+
+/* Blinking cursor effect */
+@keyframes cursor {
+	50% {
+		border-right-color: transparent;
+	}
 }
 
 /* Typewriter effect: gradually increasing width */
 @keyframes move {
-  0% {
-   width: 0;
-  }
-  100% {
-    width: 100%; /* Shows the full width of the text */
-  }
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%; /* Shows the full width of the text */
+	}
 }
 
 /* card edit */
 
-.card{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin:0 250px;
-  margin-bottom: 5px;
-  gap:20px;
-  
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0 250px;
+	margin-bottom: 5px;
+	gap: 20px;
 }
-.image-wrapper{
-  max-width: 100%;
-  flex:1 1 50%;
-  
-  
-  
-  
+.image-wrapper {
+	max-width: 100%;
+	flex: 1 1 50%;
 }
-.image-wrapper img{
-  max-width:100%;
-  
-  
-  
+.image-wrapper img {
+	max-width: 100%;
 }
-.side-content{
-  text-align: center;
-  flex:1 1 50%;
-  padding:10px;
-  line-height: 2;
-  
-  
+.side-content {
+	text-align: center;
+	flex: 1 1 50%;
+	padding: 10px;
+	line-height: 2;
 }
 @media screen and (max-width: 970px) {
-  .card{
-    flex-direction: column;
-    margin:30px 80px;
-  }
-  .second-change{
-    flex-direction: column-reverse;
-  }
-  .image-wrapper{
-    flex-basis: 100%;
-  }
-  .side-content{
-    flex-basis: 100%;
-  }
-  #imp{
-    flex-direction: column !important;
-  }
-  .
-  
-  .intro {
-    width: 70%;
-    margin: auto;
-    line-height: 2;
-    text-align: center;
-  }
-  .intro-1{
-    width: auto;
-    margin: auto;
-    line-height: 2;
-    text-align: center;
-  }
-  
-
-  
+	.card {
+		flex-direction: column;
+		margin: 30px 80px;
+	}
+	.second-change {
+		flex-direction: column-reverse;
+	}
+	.image-wrapper {
+		flex-basis: 100%;
+	}
+	.side-content {
+		flex-basis: 100%;
+	}
+	#imp {
+		flex-direction: column !important;
+	}
+	. .intro {
+		width: 70%;
+		margin: auto;
+		line-height: 2;
+		text-align: center;
+	}
+	.intro-1 {
+		width: auto;
+		margin: auto;
+		line-height: 2;
+		text-align: center;
+	}
 }
-
-
-
